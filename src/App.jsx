@@ -37,6 +37,15 @@ function App() {
         {contents.map((el) => (
           <Content key={el.id} content={el} />
         ))}
+
+        {/*data.js에 있는 데이터를 import해 받아서, 
+        map으로 하나씩 꺼내어
+        content라는 이름으로 props를 통해 
+        Content.jsx에 전달함.
+        Content.jsx에서 import로 받음,
+        function Content에서 content를 받아서 데이터를 화면에 정리해서 보여줌.*/}
+
+
       </Section>
     </main>
   );
