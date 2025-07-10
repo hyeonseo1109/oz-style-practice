@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
 
 
 const Section = styled.section `
-  ${flexMixin(undefined, 'center', 'center', 'wrap', '20px')};
+  ${flexMixin(undefined, 'center', 'center', '20px', 'wrap')};
   padding: 20px 40px;
 `
 

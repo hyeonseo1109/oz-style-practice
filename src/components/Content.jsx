@@ -2,7 +2,7 @@ import { flexMixin, fontMixin, gray, tagColor } from '../export';
 import styled from 'styled-components';
 
 const ContentContainer = styled.div `
-  ${flexMixin ('column', 'align', 'flex-start', '5px')};
+  ${flexMixin ('column', undefined, 'flex-start', '5px')};
   img {
     width: 300px;
     border-radius: 10px;
